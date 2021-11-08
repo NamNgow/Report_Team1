@@ -13,7 +13,7 @@ int main()
 	if (pid < 0) // Foxfail
 	{
 		fprintf(stderr, "fork false");
-		return 0;//sua dong 16,chuyen 1 --> 0
+		return 1;//chuyen 0 --> 1
 	}else if (pid == 0) //Child process
 	{
 		while(n!=1)
