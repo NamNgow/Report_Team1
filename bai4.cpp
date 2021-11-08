@@ -37,6 +37,6 @@ int main()
 		wait(NULL);
 		printf("Child complete.\n");
 	}
-	return 2;//sửa từ 1-->2
+	return 0;//sửa từ 2-->0
 }
 
